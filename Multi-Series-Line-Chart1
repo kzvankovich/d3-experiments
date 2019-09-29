@@ -1,0 +1,105 @@
+var data = {"consult":1001,"client":1,"clientId":"343434-1234","zmdtId":0,"clientName":"Darth Vader GmbH & Co. KG","saldenList":[{"bezeichnung":"summary","postenId":null,"details":[{"displayId":"1200 00","displayText":"Sparkasse Konto 1","dailyBalances":[{"day":"2018-06-10T01:00:00+01:00","saldoInCent":3854570000},{"day":"2018-05-11T01:00:00+01:00","saldoInCent":3900000},{"day":"2018-05-12T01:00:00+01:00","saldoInCent":3870000},{"day":"2018-05-13T01:00:00+01:00","saldoInCent":-1200000},{"day":"2019-05-14T01:00:00+01:00","saldoInCent":-5700000},{"day":"2019-05-15T01:00:00+01:00","saldoInCent":-9000000},{"day":"2019-05-16T01:00:00+01:00","saldoInCent":3870000},{"day":"2019-05-17T01:00:00+01:00","saldoInCent":3870000}]},{"displayId":"1200 00","displayText":"DKB Konto 1","dailyBalances":[{"day":"2019-05-18T01:00:00+01:00","saldoInCent":3920000},{"day":"2019-05-19T01:00:00+01:00","saldoInCent":3870000},{"day":"2019-08-20T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-21T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-22T01:00:00+01:00","saldoInCent":4066823},{"day":"2019-05-23T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-24T01:00:00+01:00","saldoInCent":3916823}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Postbank","dailyBalances":[{"day":"2019-05-25T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-26T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-27T01:00:00+01:00","saldoInCent":3786823},{"day":"2019-05-28T01:00:00+01:00","saldoInCent":17974793},{"day":"2019-05-29T01:00:00+01:00","saldoInCent":17974793},{"day":"2019-05-30T01:00:00+01:00","saldoInCent":17974793},{"day":"2019-05-31T01:00:00+01:00","saldoInCent":12974793},{"day":"2019-06-01T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-02T01:00:00+01:00","saldoInCent":12944793}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Deutschen Kreditbank","dailyBalances":[{"day":"2019-06-03T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-04T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-05T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-06T01:00:00+01:00","saldoInCent":14344793},{"day":"2019-06-07T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-08T01:00:00+01:00","saldoInCent":12944793},{"day":"2019-06-09T01:00:00+01:00","saldoInCent":12044793},{"day":"2019-06-10T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-11T01:00:00+01:00","saldoInCent":10661616},{"day":"2019-06-12T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-13T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-08-14T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-08-15T01:00:00+01:00","saldoInCent":11761616}]},{"displayId":"1200 00","displayText":"Tresor in der Schweiz","dailyBalances":[{"day":"2019-06-16T01:00:00+01:00","saldoInCent":15761616},{"day":"2019-06-17T01:00:00+01:00","saldoInCent":21761616},{"day":"2019-06-18T01:00:00+01:00","saldoInCent":7761616},{"day":"2019-06-19T01:00:00+01:00","saldoInCent":13761616},{"day":"2019-06-20T01:00:00+01:00","saldoInCent":19761616},{"day":"2019-06-21T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-22T01:00:00+01:00","saldoInCent":9061616},{"day":"2019-06-23T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-24T01:00:00+01:00","saldoInCent":13661616},{"day":"2019-06-25T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-26T01:00:00+01:00","saldoInCent":13861616},{"day":"2019-06-27T01:00:00+01:00","saldoInCent":11761616},{"day":"2019-06-28T01:00:00+01:00","saldoInCent":25949586},{"day":"2019-07-01T01:00:00+01:00","saldoInCent":25919586},{"day":"2019-07-02T01:00:00+01:00","saldoInCent":17919586},{"day":"2019-07-03T01:00:00+01:00","saldoInCent":21919586},{"day":"2019-07-04T01:00:00+01:00","saldoInCent":9919586},{"day":"2019-07-05T01:00:00+01:00","saldoInCent":20919586},{"day":"2019-07-06T01:00:00+01:00","saldoInCent":17919586},{"day":"2019-07-07T01:00:00+01:00","saldoInCent":25919586},{"day":"2019-07-08T01:00:00+01:00","saldoInCent":20919586},{"day":"2019-07-09T01:00:00+01:00","saldoInCent":25919586},{"day":"2019-07-10T01:00:00+01:00","saldoInCent":14736409},{"day":"2019-07-11T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-12T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-13T01:00:00+01:00","saldoInCent":7736409},{"day":"2019-07-14T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-15T01:00:00+01:00","saldoInCent":4736409},{"day":"2019-07-16T01:00:00+01:00","saldoInCent":18736409},{"day":"2019-07-17T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-18T01:00:00+01:00","saldoInCent":30736409},{"day":"2019-07-19T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-20T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-21T01:00:00+01:00","saldoInCent":34736409},{"day":"2019-07-22T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-23T01:00:00+01:00","saldoInCent":29736409},{"day":"2019-07-24T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-25T01:00:00+01:00","saldoInCent":21736409},{"day":"2019-07-26T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-27T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-28T01:00:00+01:00","saldoInCent":38924379},{"day":"2019-07-29T01:00:00+01:00","saldoInCent":28924379},{"day":"2019-07-30T01:00:00+01:00","saldoInCent":25924379},{"day":"2019-07-31T01:00:00+01:00","saldoInCent":38924379},{"day":"2019-04-01T02:00:00+02:00","saldoInCent":18924379},{"day":"2019-04-02T02:00:00+02:00","saldoInCent":38924379},{"day":"2019-04-03T02:00:00+02:00","saldoInCent":38924379},{"day":"2019-04-04T02:00:00+02:00","saldoInCent":28924379},{"day":"2019-04-05T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-06T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-07T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-08T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-09T02:00:00+02:00","saldoInCent":null}]}]},{"bezeichnung":"Demands","postenId":{"postenNr":15610106,"postenTyp":0,"postenSubTyp":0},"details":[{"displayId":"1200 00","displayText":"Sparkasse Konto 1","dailyBalances":[{"day":"2019-05-10T01:00:00+01:00","saldoInCent":380},{"day":"2019-05-11T01:00:00+01:00","saldoInCent":300},{"day":"2019-05-12T01:00:00+01:00","saldoInCent":38700},{"day":"2019-05-13T01:00:00+01:00","saldoInCent":1200},{"day":"2019-05-14T01:00:00+01:00","saldoInCent":777},{"day":"2019-05-15T01:00:00+01:00","saldoInCent":7779},{"day":"2019-05-16T01:00:00+01:00","saldoInCent":3000},{"day":"2019-05-17T01:00:00+01:00","saldoInCent":888}]},{"displayId":"1200 00","displayText":"DKB Konto 1","dailyBalances":[{"day":"2019-05-18T01:00:00+01:00","saldoInCent":39200},{"day":"2019-05-19T01:00:00+01:00","saldoInCent":3870000},{"day":"2019-05-20T01:00:00+01:00","saldoInCent":37823},{"day":"2019-05-21T01:00:00+01:00","saldoInCent":3723},{"day":"2019-05-22T01:00:00+01:00","saldoInCent":406681},{"day":"2019-05-23T01:00:00+01:00","saldoInCent":0},{"day":"2019-05-24T01:00:00+01:00","saldoInCent":77}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Postbank","dailyBalances":[{"day":"2019-05-25T01:00:00+01:00","saldoInCent":378},{"day":"2019-05-26T01:00:00+01:00","saldoInCent":378},{"day":"2019-05-27T01:00:00+01:00","saldoInCent":37823},{"day":"2019-05-28T01:00:00+01:00","saldoInCent":179793},{"day":"2019-05-29T01:00:00+01:00","saldoInCent":174793},{"day":"2019-05-30T01:00:00+01:00","saldoInCent":0},{"day":"2019-05-31T01:00:00+01:00","saldoInCent":124793},{"day":"2019-06-01T01:00:00+01:00","saldoInCent":129447939},{"day":"2019-06-02T01:00:00+01:00","saldoInCent":129447931}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Deutschen Kreditbank","dailyBalances":[{"day":"2019-06-03T01:00:00+01:00","saldoInCent":4793},{"day":"2019-06-04T01:00:00+01:00","saldoInCent":1297},{"day":"2019-06-05T01:00:00+01:00","saldoInCent":12447},{"day":"2019-06-06T01:00:00+01:00","saldoInCent":1437},{"day":"2019-06-07T01:00:00+01:00","saldoInCent":127931},{"day":"2019-06-08T01:00:00+01:00","saldoInCent":129447932},{"day":"2019-06-09T01:00:00+01:00","saldoInCent":1243},{"day":"2019-06-10T01:00:00+01:00","saldoInCent":11161622},{"day":"2019-06-11T01:00:00+01:00","saldoInCent":106161622},{"day":"2019-06-12T01:00:00+01:00","saldoInCent":11616},{"day":"2019-06-13T01:00:00+01:00","saldoInCent":1761},{"day":"2019-06-14T01:00:00+01:00","saldoInCent":1761},{"day":"2019-06-15T01:00:00+01:00","saldoInCent":1616}]},{"displayId":"1200 00","displayText":"Tresor in der Schweiz","dailyBalances":[{"day":"2019-06-16T01:00:00+01:00","saldoInCent":57616},{"day":"2019-06-17T01:00:00+01:00","saldoInCent":1761616},{"day":"2019-06-18T01:00:00+01:00","saldoInCent":7616},{"day":"2019-06-19T01:00:00+01:00","saldoInCent":37616},{"day":"2019-06-20T01:00:00+01:00","saldoInCent":9761616},{"day":"2019-06-21T01:00:00+01:00","saldoInCent":176},{"day":"2019-06-22T01:00:00+01:00","saldoInCent":90616},{"day":"2019-06-23T01:00:00+01:00","saldoInCent":7616},{"day":"2019-06-24T01:00:00+01:00","saldoInCent":16161},{"day":"2019-06-25T01:00:00+01:00","saldoInCent":117616},{"day":"2019-06-26T01:00:00+01:00","saldoInCent":13816},{"day":"2019-06-27T01:00:00+01:00","saldoInCent":117616},{"day":"2019-06-28T01:00:00+01:00","saldoInCent":25586},{"day":"2019-07-01T01:00:00+01:00","saldoInCent":259186},{"day":"2019-07-02T01:00:00+01:00","saldoInCent":17916},{"day":"2019-07-03T01:00:00+01:00","saldoInCent":21196},{"day":"2019-07-04T01:00:00+01:00","saldoInCent":991869},{"day":"2019-07-05T01:00:00+01:00","saldoInCent":2099186},{"day":"2019-07-06T01:00:00+01:00","saldoInCent":1791969},{"day":"2019-07-07T01:00:00+01:00","saldoInCent":2591869},{"day":"2019-07-08T01:00:00+01:00","saldoInCent":20969},{"day":"2019-07-09T01:00:00+01:00","saldoInCent":2586},{"day":"2019-07-10T01:00:00+01:00","saldoInCent":1473699},{"day":"2019-07-11T01:00:00+01:00","saldoInCent":2309},{"day":"2019-07-12T01:00:00+01:00","saldoInCent":2409},{"day":"2019-07-13T01:00:00+01:00","saldoInCent":77399},{"day":"2019-07-14T01:00:00+01:00","saldoInCent":2455409},{"day":"2019-07-15T01:00:00+01:00","saldoInCent":47499},{"day":"2019-07-16T01:00:00+01:00","saldoInCent":18756},{"day":"2019-07-17T01:00:00+01:00","saldoInCent":24739},{"day":"2019-07-18T01:00:00+01:00","saldoInCent":307309},{"day":"2019-07-19T01:00:00+01:00","saldoInCent":2309},{"day":"2019-07-20T01:00:00+01:00","saldoInCent":247309},{"day":"2019-07-21T01:00:00+01:00","saldoInCent":0},{"day":"2019-07-22T01:00:00+01:00","saldoInCent":24736409},{"day":"2019-07-23T01:00:00+01:00","saldoInCent":0},{"day":"2019-07-24T01:00:00+01:00","saldoInCent":0},{"day":"2019-07-25T01:00:00+01:00","saldoInCent":21736409},{"day":"2019-07-26T01:00:00+01:00","saldoInCent":0},{"day":"2019-07-27T01:00:00+01:00","saldoInCent":67854},{"day":"2019-07-28T01:00:00+01:00","saldoInCent":34379},{"day":"2019-07-29T01:00:00+01:00","saldoInCent":9279},{"day":"2019-07-30T01:00:00+01:00","saldoInCent":279},{"day":"2019-07-31T01:00:00+01:00","saldoInCent":3894379},{"day":"2019-04-01T02:00:00+02:00","saldoInCent":18979},{"day":"2019-04-02T02:00:00+02:00","saldoInCent":389377},{"day":"2019-04-03T02:00:00+02:00","saldoInCent":38924366},{"day":"2019-04-04T02:00:00+02:00","saldoInCent":2379},{"day":"2019-04-05T02:00:00+02:00","saldoInCent":77},{"day":"2019-04-06T02:00:00+02:00","saldoInCent":77},{"day":"2019-04-07T02:00:00+02:00","saldoInCent":77777},{"day":"2019-04-08T02:00:00+02:00","saldoInCent":7},{"day":"2019-04-09T02:00:00+02:00","saldoInCent":0}]}]},{"bezeichnung":"Debts","postenId":{"postenNr":254100,"postenTyp":0,"postenSubTyp":0},"details":[{"displayId":"1200 00","displayText":"Sparkasse Konto 1","dailyBalances":[{"day":"2019-05-10T01:00:00+01:00","saldoInCent":-87000},{"day":"2019-05-11T01:00:00+01:00","saldoInCent":-9000},{"day":"2019-05-12T01:00:00+01:00","saldoInCent":-8700},{"day":"2019-05-13T01:00:00+01:00","saldoInCent":-120000},{"day":"2019-05-14T01:00:00+01:00","saldoInCent":-57000},{"day":"2019-05-15T01:00:00+01:00","saldoInCent":-90000},{"day":"2019-05-16T01:00:00+01:00","saldoInCent":-380000},{"day":"2019-05-17T01:00:00+01:00","saldoInCent":-38700}]},{"displayId":"1200 00","displayText":"DKB Konto 1","dailyBalances":[{"day":"2019-05-18T01:00:00+01:00","saldoInCent":-92000},{"day":"2019-05-19T01:00:00+01:00","saldoInCent":-8700},{"day":"2019-05-20T01:00:00+01:00","saldoInCent":-7823},{"day":"2019-05-21T01:00:00+01:00","saldoInCent":-78823},{"day":"2019-05-22T01:00:00+01:00","saldoInCent":-66823},{"day":"2019-05-23T01:00:00+01:00","saldoInCent":-86823},{"day":"2019-05-24T01:00:00+01:00","saldoInCent":-1683}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Postbank","dailyBalances":[{"day":"2019-05-25T01:00:00+01:00","saldoInCent":-86823},{"day":"2019-05-26T01:00:00+01:00","saldoInCent":-8683},{"day":"2019-05-27T01:00:00+01:00","saldoInCent":-86823},{"day":"2019-05-28T01:00:00+01:00","saldoInCent":-974793},{"day":"2019-05-29T01:00:00+01:00","saldoInCent":-17493},{"day":"2019-05-30T01:00:00+01:00","saldoInCent":-974793},{"day":"2019-05-31T01:00:00+01:00","saldoInCent":-2974793},{"day":"2019-06-01T01:00:00+01:00","saldoInCent":-294493},{"day":"2019-06-02T01:00:00+01:00","saldoInCent":-2944793}]},{"displayId":"1200 00","displayText":"Sparbuch bei der Deutschen Kreditbank","dailyBalances":[{"day":"2019-06-03T01:00:00+01:00","saldoInCent":-94793},{"day":"2019-06-04T01:00:00+01:00","saldoInCent":-94793},{"day":"2019-06-05T01:00:00+01:00","saldoInCent":-9493},{"day":"2019-06-06T01:00:00+01:00","saldoInCent":-34493},{"day":"2019-06-07T01:00:00+01:00","saldoInCent":-94793},{"day":"2019-06-08T01:00:00+01:00","saldoInCent":-94793},{"day":"2019-06-09T01:00:00+01:00","saldoInCent":-4493},{"day":"2019-06-10T01:00:00+01:00","saldoInCent":-78816},{"day":"2019-06-11T01:00:00+01:00","saldoInCent":-6616},{"day":"2019-06-12T01:00:00+01:00","saldoInCent":-76116},{"day":"2019-06-13T01:00:00+01:00","saldoInCent":-7617616},{"day":"2019-06-14T01:00:00+01:00","saldoInCent":-761616},{"day":"2019-06-15T01:00:00+01:00","saldoInCent":-761616}]},{"displayId":"1200 00","displayText":"Tresor in der Schweiz","dailyBalances":[{"day":"2019-06-16T01:00:00+01:00","saldoInCent":-761616},{"day":"2019-06-17T01:00:00+01:00","saldoInCent":-7616},{"day":"2019-06-18T01:00:00+01:00","saldoInCent":-61616},{"day":"2019-06-19T01:00:00+01:00","saldoInCent":-761616},{"day":"2019-06-20T01:00:00+01:00","saldoInCent":-76116},{"day":"2019-06-21T01:00:00+01:00","saldoInCent":-761616},{"day":"2019-06-22T01:00:00+01:00","saldoInCent":-61616},{"day":"2019-06-23T01:00:00+01:00","saldoInCent":-76116},{"day":"2019-06-24T01:00:00+01:00","saldoInCent":-661616},{"day":"2019-06-25T01:00:00+01:00","saldoInCent":-76166},{"day":"2019-06-26T01:00:00+01:00","saldoInCent":-86166},{"day":"2019-06-27T01:00:00+01:00","saldoInCent":-761616},{"day":"2019-06-28T01:00:00+01:00","saldoInCent":-949586},{"day":"2019-07-01T01:00:00+01:00","saldoInCent":-91986},{"day":"2019-07-02T01:00:00+01:00","saldoInCent":-919586},{"day":"2019-07-03T01:00:00+01:00","saldoInCent":-919586},{"day":"2019-07-04T01:00:00+01:00","saldoInCent":-1956},{"day":"2019-07-05T01:00:00+01:00","saldoInCent":-919586},{"day":"2019-07-06T01:00:00+01:00","saldoInCent":-919586},{"day":"2019-07-07T01:00:00+01:00","saldoInCent":-91586},{"day":"2019-07-08T01:00:00+01:00","saldoInCent":-91958},{"day":"2019-07-09T01:00:00+01:00","saldoInCent":-9186},{"day":"2019-07-10T01:00:00+01:00","saldoInCent":-73649},{"day":"2019-07-11T01:00:00+01:00","saldoInCent":-73409},{"day":"2019-07-12T01:00:00+01:00","saldoInCent":-7409},{"day":"2019-07-13T01:00:00+01:00","saldoInCent":-3409},{"day":"2019-07-14T01:00:00+01:00","saldoInCent":-7309},{"day":"2019-07-15T01:00:00+01:00","saldoInCent":-309},{"day":"2019-07-16T01:00:00+01:00","saldoInCent":-73409},{"day":"2019-07-17T01:00:00+01:00","saldoInCent":-7309},{"day":"2019-07-18T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-19T01:00:00+01:00","saldoInCent":-7309},{"day":"2019-07-20T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-21T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-22T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-23T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-24T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-25T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-26T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-27T01:00:00+01:00","saldoInCent":-736409},{"day":"2019-07-28T01:00:00+01:00","saldoInCent":-92479},{"day":"2019-07-29T01:00:00+01:00","saldoInCent":-924379},{"day":"2019-07-30T01:00:00+01:00","saldoInCent":-924379},{"day":"2019-07-31T01:00:00+01:00","saldoInCent":-924379},{"day":"2019-04-01T02:00:00+02:00","saldoInCent":-924379},{"day":"2019-04-02T02:00:00+02:00","saldoInCent":-924379},{"day":"2019-04-03T02:00:00+02:00","saldoInCent":-92000049},{"day":"2019-04-04T02:00:00+02:00","saldoInCent":-92400000379},{"day":"2019-04-05T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-06T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-07T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-08T02:00:00+02:00","saldoInCent":null},{"day":"2019-04-09T02:00:00+02:00","saldoInCent":null}]}]}]};
+d3.selectAll("svg").remove();
+var now = new Date();
+var start = d3.timeDay.offset(now, -98);
+
+var balances = {
+      key: data.clientName,
+      values: data.saldenList.reduce((balances, balance) => [
+          ...balances,
+          ...[{
+            id: balance.bezeichnung,
+            values: d3.nest()
+                    .key(function (d) {
+                       return d3.timeDay(new Date(d.date));
+                    }).entries(
+                    [
+                      ...balance.details.reduce((values, account) => [
+                        ...values,
+                        ...account.dailyBalances.map((dailyBalance) => ({
+                          date: new Date(dailyBalance.day),
+                          value:dailyBalance.saldoInCent}))], [])])
+                      .map(v => ({date: new Date(v.key), value: d3.sum(v.values.map(v => v.value))}))
+                  //    .filter(v => v.date >= start && v.date <= now)
+                      .sort(function(x, y){ return d3.ascending(x.date, y.date);})
+
+              }]], [])};
+
+var funds = balances.values.find(v => v.id === "summary");
+var demands = balances.values.find(v => v.id === "Demands");
+var debts = balances.values.find(v => v.id === "Debts");
+var fundsDemands = d3.nest()
+                    .key(function (d) {
+                       return d3.timeDay(new Date(d.date));
+                    }).entries([...funds.values, ...demands.values]).map(v => ({date: new Date(v.key), value: d3.sum(v.values.map(v => v.value))}));
+var fundsDebtsDemands = d3.nest()
+                    .key(function (d) {
+                       return d3.timeDay(new Date(d.date));
+                    }).entries([...funds.values, ...demands.values, ...debts.values]).map(v => ({date: new Date(v.key), value: d3.sum(v.values.map(v => v.value))}));
+
+var chartData = { values: [funds,  {id: "fundsDemands", values: fundsDemands},  {id: "fundsDebtsDemands", values: fundsDebtsDemands}]};
+// var chartData = { values: [funds]};
+
+var dalyBalancesValues = chartData.values.map(v => v.values.map(v => v.value)).reduce((r, c) => [...r, ...c], []);  
+var dalyBalancesDates = chartData.values.map(v => v.values.map(v => v.date)).reduce((r, c) => [...r, ...c], []); 
+
+
+console.log(chartData);
+
+ 
+var margin = {top: 60, right: 80, bottom: 30, left: 80};
+var width = 960 - margin.left - margin.right;
+var height = 500 - margin.top - margin.bottom;
+
+
+var svg = d3.select("body").append("svg")
+    .attr("width", 960)
+    .attr("height", 500);
+var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// Scale X - time scale
+// Scale Y - linear scale
+var x = d3.scaleTime().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// D3 Line generator with curveBasis being the interpolator
+var line = d3.line()
+    .curve(d3.curveBasis)
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.value); });
+
+// Using the initial data figure out the min / max dates
+x.domain(d3.extent([...dalyBalancesDates, ...[new Date()]])).nice(d3.timeYear);
+
+y.domain(d3.extent(dalyBalancesValues)).nice();
+
+// Create X Axis
+g.append("g")
+    .attr("class", "axis axis--x")
+    .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x).ticks(d3.timeYear).tickFormat(d3.timeFormat("%d.%m.%y")));
+
+// Create Y Axis
+// Add Text label to Y axis
+g.append("g")
+      .attr("class", "axis axis--y")
+      .call(d3.axisLeft(y));
+
+
+var balance = g.selectAll(".balance")
+    .data(chartData.values)
+    .enter().append("g")
+      .attr("class", "balance");
+
+// Create a <path> element inside of each balance <g>
+// Use line generator function to convert 366 data points into SVG path string
+balance.append("path")
+     .attr("class", function(d, i) { return "line" + i; })
+     .attr("d", function(d) { return line(d.values); });
+
+
+function sortByDateAscending(a, b) {
+    // Dates will be cast to numbers automagically:
+    return a.date - b.date;
+}
+
